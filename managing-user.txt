@@ -1,0 +1,11 @@
+adding user:
+  useradd <name>
+create group:
+  groupadd <name>
+modifing a user:
+  usermod -g <group-name> <username> (-g indicates the user group)
+  usermod -aG <group-name> <username> (-aG append a user with current group with another
+show user details:
+  id <username>
+lock user:
+  usermod -L <username> (lock means that the user can no longer log in or generate any action from any email messages)
